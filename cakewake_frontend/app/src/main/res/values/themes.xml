@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CakeWake" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.CakeWake.SplashScreen" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background color -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Use the app icon as the splash screen icon -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_logo</item>
+
+        <!-- Set the theme of the Activity that follows the splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.CakeWake</item>
+
+        <!-- Customize animation duration to be minimal -->
+        <item name="windowSplashScreenAnimationDuration">0</item>
+    </style>
+</resources>
